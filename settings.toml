@@ -2,7 +2,8 @@
 paper_format = "a4"
 
 [font]
-name = "Linux Biolinum"
+name = "Helvetica Nueu"
+additional = "Linux Biolinum"
 [font.size] 
 name = "33pt"
 heading_large = "16pt"
