@@ -1,0 +1,82 @@
+[contacts]
+name = "Igor Davidyuk"
+email = "igor.davidyuk@outlook.com"
+address = "Haifa, Israel"
+phone = "+972-53-572-5322"
+github = "igor-davidyuk"
+github_link = ""
+
+[summary]
+target_position = "Deep Learning Engineer, Software Engineer"
+
+[profile]
+Summary = "Over 5 years of practical experience in Python and Deep Learning \nMore than 12 years of research experience in academia and industry"
+Programming = "Python"
+Technology = "Pytorch, OpenCV, Numpy, grpc"
+"Languages" = "English, Russian"
+
+[[experience]]
+position = "AI Frameworks Engineer"
+location = "Haifa, Israel"
+company.name = "Intel"
+company.website = "intel.com"
+start_date = "Sep. 2020"
+end_date = "Present"
+details = [
+  "Developing OpenFL – an open-source framework for Federated Learning",
+  "Working on privacy-preserving features e.g., training in SGX enclaves, workload encryption, securing communication",
+  "Created several Federated Learning showcases and tutorials",
+  "Researching novel aggregation methods for deep convolutional networks"
+]
+tags = ["Federated Learning", "AI"]
+
+[[experience]]
+position = "Data Scientist"
+location = "Nizhny Novgorod, Russia"
+company.name = "Intelligichain"
+company.website = "intelligichain.com"
+start_date = "Oct. 2019"
+end_date = "Sep. 2020"
+details = [
+  "Designed and implemented parts of cognitive surveillance system tolerable to faulty DCNs predictions",
+  "Worked on a parking lot supervision system construction: vehicle detection, parking lot occupation control, license plate recognition",
+  "Developed surveillance camera-embedded AI applications.",
+]
+tags = ["Deep Learning", "Developement"]
+
+[[experience]]
+position = "Research Assistant"
+location = "Novosibirsk, Russia"
+company.name = "Budker Institute of Nuclear Physics"
+company.website = "https://www.inp.nsk.su/budker-institute-of-nuclear-physics"
+start_date = "Sep. 2011"
+end_date = "Sep. 2019"
+details = [
+  "Worked on infrastructure upgrades and maintenance of Novosibirsk Free Electron Laser",
+  "Presented the results of research in oral and poster talks at numerous international conferences on physics",
+  "Authored several research papers that were published in peer-reviewed journals",
+]
+tags = ["Physics", "Research"]
+
+
+[[education]]
+degree = "Master of Science"
+university.name = "Novosibirsk State University"
+university.website = "http://www.nsu.ru"
+location = "Novosibirsk, Russia"
+major = "Accelerator Physics"
+start_date = "Sep. 2013"
+end_date = "Jun. 2015"
+gpa = "4.74"
+dissertation = "Development Of The Variable-Period Undulator For The Second Stage of Novosibirsk Free Electron Laser"
+
+[[education]]
+degree = "Bachelor of Science"
+university.name = "Novosibirsk State University"
+university.website = "http://www.nsu.ru"
+location = "Novosibirsk, Russia"
+major = "Physics"
+start_date = "Sep. 2009"
+end_date = "Jun. 2013"
+gpa = "4.2"
+dissertation = ""

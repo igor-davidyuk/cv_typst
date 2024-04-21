@@ -1,0 +1,14 @@
+[page]
+paper_format = "a4"
+name = "Helvetica Nueu"
+
+[font]
+name = "Linux Biolinum"
+[font.size] 
+name = "33pt"
+heading_large = "16pt"
+heading = "13pt"
+description = "10pt"
+tags = "8pt"
+education_description = "8pt"
+contacts = "8pt"
