@@ -1,5 +1,6 @@
 name: Render PDF
 on:
+  workflow_dispatch:
   push:
     paths-ignore:
       - '**.pdf'
