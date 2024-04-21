@@ -6,7 +6,8 @@ on:
 jobs:
   render-paper:
     runs-on: ubuntu-latest
-    contents: write  # 'write' access to repository contents
+    permissions:  
+      contents: write  # 'write' access to repository contents
     steps:
       - uses: actions/checkout@v4
       - uses: typst-community/setup-typst@v3
