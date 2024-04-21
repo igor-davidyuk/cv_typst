@@ -1,0 +1,15 @@
+name: Render PDF
+on:
+  push:
+    paths-ignore:
+      - '**.pdf'
+jobs:
+  render-paper:
+    runs-on: ubuntu-latest
+    contents: write  # 'write' access to repository contents
+    steps:
+      - uses: actions/checkout@v4
+      - uses: typst-community/setup-typst@v3
+      - run: typst compile main.typ davidyuk_cv.pdf
+      - run: git commit -a -s -m "update cv"
+      - uses: ad-m/github-push-action@master
