@@ -11,8 +11,8 @@ jobs:
       contents: write  # 'write' access to repository contents
     steps:
       - uses: actions/checkout@v4
-      - uses: fontist/setup-fontist@v2
-      - run: fontist install "Helvetica Nueu"
+      # - uses: fontist/setup-fontist@v2
+      # - run: fontist install "Helvetica Nueu"
       - uses: typst-community/setup-typst@v3
       - run: typst compile main.typ davidyuk_cv.pdf --font-path ~/.fontist/fonts
       - run: |
