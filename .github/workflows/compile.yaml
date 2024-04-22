@@ -6,20 +6,30 @@ on:
       - '**.pdf'
 jobs:
   render-paper:
+    env:
+      TARGET_FILE_NAME=davidyuk_cv.pdf
     runs-on: ubuntu-latest
     permissions:  
       contents: write  # 'write' access to repository contents
     steps:
       - uses: actions/checkout@v4
-      # Install fonts
+
+      ## Install fonts
       # - uses: fontist/setup-fontist@v2
       # - run: fontist install "Helvetica Nueu"
-      - run: sudo apt-get update && sudo apt-get install libghc-typst-symbols-dev
 
       - uses: typst-community/setup-typst@v3
-      - run: typst compile main.typ davidyuk_cv.pdf --font-path ~/.fontist/fonts
-      - run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git commit -a -m "update cv"
-      - uses: ad-m/github-push-action@master
+      - run: typst compile main.typ $TARGET_FILE_NAME # --font-path ~/.fontist/fonts
+
+      ## Make a release with the PDF file
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: $TARGET_FILE_NAME
+
+      ## Push the PDF file
+      # - run: |
+      #     git config --local user.email "github-actions[bot]@users.noreply.github.com"
+      #     git config --local user.name "github-actions[bot]"
+      #     git commit -a -m "update cv"
+      # - uses: ad-m/github-push-action@master
