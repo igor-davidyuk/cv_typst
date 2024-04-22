@@ -4,16 +4,15 @@ email = "igor.davidyuk@outlook.com"
 address = "Haifa, Israel"
 phone = "+972-53-572-5322"
 github = "igor-davidyuk"
-github_link = ""
 
 [summary]
 target_position = "Deep Learning Engineer, Software Engineer"
 
 [profile]
 Summary = "Over 5 years of practical experience in Python and Deep Learning \nMore than 12 years of research experience in academia and industry"
-Programming = "Python"
+Programming = "Python, Rust"
 Technology = "Pytorch, OpenCV, Numpy, grpc"
-"Languages" = "English, Russian"
+# "Languages" = "English, Russian"
 
 [[experience]]
 position = "AI Frameworks Engineer"

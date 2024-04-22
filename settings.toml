@@ -1,5 +1,6 @@
 [page]
-paper_format = "a4"
+# paper_format = "a4"
+paper_format = "us-letter"
 
 [font]
 add = "Helvetica Nueu"
