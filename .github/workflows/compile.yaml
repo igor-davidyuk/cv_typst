@@ -24,7 +24,7 @@ jobs:
       ## Make a release with the PDF file
       - name: Generate release tag
         # id: tag
-        run: echo "release_tag=cv_$(date +"%Y.%m.%d_%H-%M")" >> $RELEASE_TAG
+        run: echo "RELEASE_TAG=cv_$(date +"%Y.%m.%d_%H-%M")" >> "$GITHUB_ENV"
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
