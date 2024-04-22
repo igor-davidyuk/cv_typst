@@ -19,11 +19,11 @@ jobs:
       # - run: fontist install "Helvetica Nueu"
 
       - uses: typst-community/setup-typst@v3
-      - run: typst compile main.typ $TARGET_FILE_NAME # --font-path ~/.fontist/fonts
+      - name: Compile PDF file
+        run: typst compile main.typ $TARGET_FILE_NAME # --font-path ~/.fontist/fonts
 
       ## Make a release with the PDF file
       - name: Generate release tag
-        # id: tag
         run: echo "RELEASE_TAG=cv_$(date +"%Y.%m.%d_%H-%M")" >> "$GITHUB_ENV"
       - name: Release
         uses: softprops/action-gh-release@v2
@@ -31,7 +31,6 @@ jobs:
           tag_name: ${{ env.RELEASE_TAG }}
           files: ${{ env.TARGET_FILE_NAME }}
 
-      # echo "::set-output name=release_tag::UserBuild_$(date +"%Y.%m.%d_%H-%M")"
       ## Push the PDF file
       # - run: |
       #     git config --local user.email "github-actions[bot]@users.noreply.github.com"
