@@ -1,3 +1,6 @@
+[document]
+use_emoji = false
+
 [page]
 # paper_format = "a4"
 paper_format = "us-letter"

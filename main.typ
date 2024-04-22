@@ -17,7 +17,7 @@
   justify: false,
 )
 
-#show link: underline
+// #show link: underline
 
 #show heading.where(level: 2): h => [
   #set text(
@@ -40,16 +40,21 @@
   #align(bottom)[#data.summary.target_position]
 ]
 #let contacts_section = [
+  #let email_sign = if settings.document.use_emoji {emoji.email} else [Email:]
+  #let phone_sign = if settings.document.use_emoji {emoji.phone} else [Phone:]
+  #let location_sign = if settings.document.use_emoji {emoji.map} else [Location:]
+  #let github_sign = if settings.document.use_emoji {box(image("GitHub_logo.png", height: 0.8em))} else [GitHub:]
+
   #grid(
     columns: 2,
-    align: (center, left),
+    align: (right, left),
     column-gutter: 0.6em,
     row-gutter: 0.6em,
     // Content
-    emoji.email, link({"mailto:" + data.contacts.email}),
-    emoji.phone, link("tel:" + data.contacts.phone),
-    emoji.map, data.contacts.address,
-    box(image("GitHub_logo.png", height: 0.8em)), link({"https://github.com/" + data.contacts.github})[#data.contacts.github],
+    email_sign, link({"mailto:" + data.contacts.email}),
+    phone_sign, link("tel:" + data.contacts.phone),
+    location_sign, data.contacts.address,
+    github_sign, link({"https://github.com/" + data.contacts.github})[#data.contacts.github],
   )
 ]
 #let profile_section = [
