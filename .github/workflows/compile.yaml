@@ -24,14 +24,14 @@ jobs:
       ## Make a release with the PDF file
       - name: Generate release tag
         # id: tag
-        run: echo "release_tag=cv_(date +"%Y.%m.%d_%H-%M")" >> $RELEASE_TAG
-          echo "::set-output name=release_tag::UserBuild_$(date +"%Y.%m.%d_%H-%M")"
+        run: echo "release_tag=cv_$(date +"%Y.%m.%d_%H-%M")" >> $RELEASE_TAG
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.RELEASE_TAG }}
           files: ${{ env.TARGET_FILE_NAME }}
 
+      # echo "::set-output name=release_tag::UserBuild_$(date +"%Y.%m.%d_%H-%M")"
       ## Push the PDF file
       # - run: |
       #     git config --local user.email "github-actions[bot]@users.noreply.github.com"
