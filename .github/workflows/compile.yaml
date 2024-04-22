@@ -25,6 +25,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: updated_cv
           files: $TARGET_FILE_NAME
 
       ## Push the PDF file
