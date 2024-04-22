@@ -7,7 +7,7 @@ on:
 jobs:
   render-paper:
     env:
-      TARGET_FILE_NAME=davidyuk_cv.pdf
+      TARGET_FILE_NAME: davidyuk_cv.pdf
     runs-on: ubuntu-latest
     permissions:  
       contents: write  # 'write' access to repository contents
