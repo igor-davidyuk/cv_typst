@@ -22,10 +22,14 @@ jobs:
       - run: typst compile main.typ $TARGET_FILE_NAME # --font-path ~/.fontist/fonts
 
       ## Make a release with the PDF file
+      - name: Generate release tag
+        id: tag
+        run: |
+          echo "::set-output name=release_tag::UserBuild_$(date +"%Y.%m.%d_%H-%M")"
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: updated_cv
+          tag_name: ${{ steps.tag.outputs.release_tag }}
           files: ${{ env.TARGET_FILE_NAME }}
 
       ## Push the PDF file
