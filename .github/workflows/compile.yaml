@@ -14,7 +14,7 @@ jobs:
       # Install fonts
       # - uses: fontist/setup-fontist@v2
       # - run: fontist install "Helvetica Nueu"
-      - run: sudo apt-get update && sudo apt-get install fonts-noto-color-emoji
+      - run: sudo apt-get update && sudo apt-get install libghc-typst-symbols-dev
 
       - uses: typst-community/setup-typst@v3
       - run: typst compile main.typ davidyuk_cv.pdf --font-path ~/.fontist/fonts
