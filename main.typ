@@ -52,7 +52,7 @@
     row-gutter: 0.6em,
     // Content
     email_sign, link({"mailto:" + data.contacts.email}),
-    phone_sign, link("tel:" + data.contacts.phone),
+    phone_sign, data.contacts.phone,
     location_sign, data.contacts.address,
     github_sign, link({"https://github.com/" + data.contacts.github})[#data.contacts.github],
   )
