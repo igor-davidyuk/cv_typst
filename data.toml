@@ -36,7 +36,7 @@ company.website = "intelligichain.com"
 start_date = "Oct. 2019"
 end_date = "Sep. 2020"
 details = [
-  "Conducted end-to-end Neural Network domain adaptation, from gathering data to fine-tuning and integration"
+  "Conducted end-to-end Neural Network domain adaptation, from gathering data to fine-tuning and integration",
   "Designed and implemented parts of cognitive DL-powered surveillance system",
   "Developed smart camera-embedded AI applications",
 ]
