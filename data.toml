@@ -23,7 +23,7 @@ start_date = "Sep. 2020"
 end_date = "Present"
 details = [
   "Developing Python SDK for Geti computer vision enabling platform",
-  "Researched novel aggregation methods for deep convolutional networks and developed open-source framework for Federated Learning",
+  "Researched novel aggregation methods for deep convolutional networks and developed an open-source framework for Federated Learning",
   "Worked on privacy-preserving features e.g., training in SGX enclaves, workload encryption, securing communication",
 ]
 tags = ["Federated Learning", "AI"]
