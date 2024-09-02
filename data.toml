@@ -22,10 +22,9 @@ company.website = "intel.com"
 start_date = "Sep. 2020"
 end_date = "Present"
 details = [
-  "Developing OpenFL – an open-source framework for Federated Learning",
-  "Working on privacy-preserving features e.g., training in SGX enclaves, workload encryption, securing communication",
-  "Created several Federated Learning showcases and tutorials",
-  "Researching novel aggregation methods for deep convolutional networks"
+  "Developing Python SDK for Geti computer vision enabling platform",
+  "Researched novel aggregation methods for deep convolutional networks and developed open-source framework for Federated Learning",
+  "Worked on privacy-preserving features e.g., training in SGX enclaves, workload encryption, securing communication",
 ]
 tags = ["Federated Learning", "AI"]
 
@@ -37,9 +36,9 @@ company.website = "intelligichain.com"
 start_date = "Oct. 2019"
 end_date = "Sep. 2020"
 details = [
-  "Designed and implemented parts of cognitive surveillance system tolerable to faulty DCNs predictions",
-  "Worked on a parking lot supervision system construction: vehicle detection, parking lot occupation control, license plate recognition",
-  "Developed surveillance camera-embedded AI applications.",
+  "Conducted end-to-end Neural Network domain adaptation, from gathering data to fine-tuning and integration"
+  "Designed and implemented parts of cognitive DL-powered surveillance system",
+  "Developed smart camera-embedded AI applications",
 ]
 tags = ["Deep Learning", "Developement"]
 
@@ -53,7 +52,7 @@ end_date = "Sep. 2019"
 details = [
   "Worked on infrastructure upgrades and maintenance of Novosibirsk Free Electron Laser",
   "Presented the results of research in oral and poster talks at numerous international conferences on physics",
-  "Authored several research papers that were published in peer-reviewed journals",
+  "Authored several research papers published in peer-reviewed journals",
 ]
 tags = ["Physics", "Research"]
 
