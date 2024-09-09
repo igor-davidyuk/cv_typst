@@ -22,9 +22,9 @@ company.website = "intel.com"
 start_date = "Sep. 2020"
 end_date = "Present"
 details = [
-  "Developing Python SDK for Geti computer vision enabling platform",
-  "Researched novel aggregation methods for deep convolutional networks and developed an open-source framework for Federated Learning",
-  "Worked on privacy-preserving features e.g., training in SGX enclaves, workload encryption, securing communication",
+  "Developing Geti platform enabling domain experts to solve Computer Vision and NLP tasks",
+  "Expanded OpenVINO library model coverage by integrating a number of state-of-the-art Deep Learning pipelines, spanning multiple domains, including Diffusion and Text and Audio Generation models",
+  "Researched novel aggregation methods for deep convolutional networks and developed OpenFL open-source framework for Federated Learning",
 ]
 tags = ["Federated Learning", "AI"]
 
