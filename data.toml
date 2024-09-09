@@ -6,12 +6,12 @@ phone = "+972-53-572-5322"
 github = "igor-davidyuk"
 
 [summary]
-target_position = "Deep Learning Engineer, Software Engineer"
+target_position = "Data Scientist, Deep Learning Engineer"
 
 [profile]
 Summary = "Over 5 years of practical experience in Python and Deep Learning \nMore than 12 years of research experience in academia and industry"
 Programming = "Python, Rust"
-Technology = "Pytorch, OpenCV, Numpy, grpc"
+Technology = "Pytorch, Hugging Face, OpenCV, Numpy, gRPC"
 # "Languages" = "English, Russian"
 
 [[experience]]
@@ -22,7 +22,7 @@ company.website = "intel.com"
 start_date = "Sep. 2020"
 end_date = "Present"
 details = [
-  "Developing Geti platform enabling domain experts to solve Computer Vision and NLP tasks",
+  "Developing Intel Geti platform enabling domain experts to solve Computer Vision and NLP tasks",
   "Expanded OpenVINO library model coverage by integrating a number of state-of-the-art Deep Learning pipelines, spanning multiple domains, including Diffusion and Text and Audio Generation models",
   "Researched novel aggregation methods for deep convolutional networks and developed OpenFL open-source framework for Federated Learning",
 ]
@@ -36,7 +36,7 @@ company.website = "intelligichain.com"
 start_date = "Oct. 2019"
 end_date = "Sep. 2020"
 details = [
-  "Conducted end-to-end Neural Network domain adaptation, from gathering data to fine-tuning and integration",
+  "Designed and executed comprehensive Neural Network domain adaptation workflows, spanning data collection, model adaptation, and deployment, to drive robust and reliable model performance",
   "Designed and implemented parts of cognitive DL-powered surveillance system",
   "Developed smart camera-embedded AI applications",
 ]
