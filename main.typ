@@ -10,7 +10,7 @@
   font: "DejaVu Sans",
   size: eval(settings.font.size.description),
   lang: "en",
-  weight: 600,  // 400 is default
+  weight: 500,  // 400 is default
 )
 #set par(
   leading: 0.5em,
