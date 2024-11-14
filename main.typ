@@ -10,7 +10,7 @@
   font: "DejaVu Sans",
   size: eval(settings.font.size.description),
   lang: "en",
-  weight: 500,  // 400 is default
+  weight: 510,  // 400 is default
 )
 #set par(
   leading: 0.5em,
@@ -105,7 +105,7 @@
 
 
 #grid(
-  columns: (1.8fr, 1fr),
+  columns: (1.7fr, 1fr),
   // gutter: 2em,
   name_section,
   contacts_section
