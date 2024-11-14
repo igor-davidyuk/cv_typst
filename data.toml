@@ -4,6 +4,7 @@ email = "igor.davidyuk@outlook.com"
 address = "Haifa, Israel"
 phone = "+972-53-572-5322"
 github = "igor-davidyuk"
+linkedin = "idavidyuk"
 
 [summary]
 target_position = "Data Scientist, Deep Learning Engineer"
@@ -11,7 +12,7 @@ target_position = "Data Scientist, Deep Learning Engineer"
 [profile]
 Summary = "Over 5 years of practical experience in Python and Deep Learning \nMore than 12 years of research experience in academia and industry"
 Programming = "Python, Rust"
-Technology = "Pytorch, Hugging Face, OpenCV, Numpy, gRPC"
+Technology = "Pytorch, Computer Vision, LLM, HuggingFace, OpenCV, Numpy, gRPC"
 # "Languages" = "English, Russian"
 
 [[experience]]
@@ -23,7 +24,7 @@ start_date = "Sep. 2020"
 end_date = "Present"
 details = [
   "Developing Intel Geti platform enabling domain experts to solve Computer Vision and NLP tasks",
-  "Expanded OpenVINO library model coverage by integrating a number of state-of-the-art Deep Learning pipelines, spanning multiple domains, including Diffusion and Text and Audio Generation models",
+  "Expanded OpenVINO library model coverage by integrating a number of state-of-the-art Deep Learning pipelines, spanning multiple domains, including Diffusion, Text and Audio Generation models",
   "Researched novel aggregation methods for deep convolutional networks and developed OpenFL open-source framework for Federated Learning",
 ]
 tags = ["Federated Learning", "AI"]
@@ -37,7 +38,7 @@ start_date = "Oct. 2019"
 end_date = "Sep. 2020"
 details = [
   "Designed and executed comprehensive Neural Network domain adaptation workflows, spanning data collection, model adaptation, and deployment, to drive robust and reliable model performance",
-  "Designed and implemented parts of cognitive DL-powered surveillance system",
+  "Designed and implemented components of cognitive DL-powered surveillance system",
   "Developed smart camera-embedded AI applications",
 ]
 tags = ["Deep Learning", "Developement"]
@@ -63,8 +64,10 @@ university.name = "Novosibirsk State University"
 university.website = "http://www.nsu.ru"
 location = "Novosibirsk, Russia"
 major = "Accelerator Physics"
-start_date = "Sep. 2013"
-end_date = "Jun. 2015"
+start_date = "2013"
+end_date = "2015"
+# start_date = "Sep. 2013"
+# end_date = "Jun. 2015"
 gpa = "4.74"
 dissertation = "Development Of The Variable-Period Undulator For The Second Stage of Novosibirsk Free Electron Laser"
 
@@ -74,7 +77,9 @@ university.name = "Novosibirsk State University"
 university.website = "http://www.nsu.ru"
 location = "Novosibirsk, Russia"
 major = "Physics"
-start_date = "Sep. 2009"
-end_date = "Jun. 2013"
+start_date = "2009"
+end_date = "2013"
+# start_date = "Sep. 2009"
+# end_date = "Jun. 2013"
 gpa = "4.2"
 dissertation = ""

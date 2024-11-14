@@ -37,13 +37,15 @@
     #set text(size: eval(settings.font.size.name))
     #data.contacts.name
   ]
-  #align(bottom)[#data.summary.target_position]
+  // #align(bottom)[#data.summary.target_position]
+  #data.summary.target_position
 ]
 #let contacts_section = [
   #let email_sign = if settings.document.use_emoji {emoji.email} else [Email:]
   #let phone_sign = if settings.document.use_emoji {emoji.phone} else [Phone:]
   #let location_sign = if settings.document.use_emoji {emoji.map} else [Location:]
   #let github_sign = if settings.document.use_emoji {box(image("GitHub_logo.png", height: 0.8em))} else [GitHub:]
+  #let linkedin_sign = if settings.document.use_emoji {box(image("LinkedIn_logo.png", height: 0.8em))} else [LinkedIn:]
 
   #grid(
     columns: 2,
@@ -55,6 +57,7 @@
     phone_sign, data.contacts.phone,
     location_sign, data.contacts.address,
     github_sign, link({"https://github.com/" + data.contacts.github})[#data.contacts.github],
+    linkedin_sign, link({"https://linkedin.com/in/" + data.contacts.linkedin})[#data.contacts.linkedin],
   )
 ]
 #let profile_section = [
