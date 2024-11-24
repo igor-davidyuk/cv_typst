@@ -15,12 +15,12 @@ jobs:
       - uses: actions/checkout@v4
 
       ## Install fonts
-      # - uses: fontist/setup-fontist@v2
-      # - run: fontist install "Helvetica Nueu"
+      - uses: fontist/setup-fontist@v2
+      - run: fontist install "Arial"
 
       - uses: typst-community/setup-typst@v3
       - name: Compile PDF file
-        run: typst compile main.typ $TARGET_FILE_NAME # --font-path ~/.fontist/fonts
+        run: typst compile main.typ $TARGET_FILE_NAME --font-path ~/.fontist/fonts
 
       ## Make a release with the PDF file
       - name: Generate release tag
