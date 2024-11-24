@@ -16,7 +16,7 @@ jobs:
 
       ## Install fonts
       - uses: fontist/setup-fontist@v2
-      - run: fontist install "Arial"
+      - run: fontist install -a "Arial"
 
       - uses: typst-community/setup-typst@v3
       - name: Compile PDF file
