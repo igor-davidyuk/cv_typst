@@ -7,7 +7,9 @@ paper_format = "us-letter"
 
 [font]
 add = "Helvetica Nueu"
-name = "Linux Biolinum"
+name = "Arial"
+# name = "Linux Biolinum"
+
 [font.size] 
 name = "34pt"
 heading_large = "17pt"

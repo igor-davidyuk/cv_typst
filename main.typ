@@ -6,8 +6,8 @@
   margin: (x: 1.8cm, y: 1.5cm),
 )
 #set text(
-  // font: settings.font.name,
-  font: "DejaVu Sans",
+  font: settings.font.name,
+  // font: "DejaVu Sans",
   size: eval(settings.font.size.description),
   lang: "en",
   weight: 510,  // 400 is default
