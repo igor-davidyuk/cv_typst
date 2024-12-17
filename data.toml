@@ -1,30 +1,34 @@
 [contacts]
 name = "Igor Davidyuk"
 email = "igor.davidyuk@outlook.com"
-address = "Haifa, Israel"
+location = "Nizhny Novgorod, Russia"
 phone = "+972-53-572-5322"
 github = "igor-davidyuk"
 linkedin = "idavidyuk"
+telegram = "fings"
+google_schoolar = "https://scholar.google.com/citations?hl=en&user=G8mwEMUAAAAJ"
+
 
 [summary]
-target_position = "Data Scientist, Deep Learning Engineer"
+target_position = "Data Scientist"
+about = "I am a Deep Learning Specialist with rich R&D experience in both industry and academia. Throughout my career, I have developed both specialized models and infrastructure, and I am always thrilled to adapt the latest community advances to real business applications. I truly enjoy working with the talented and passionate people often encountered in our field to meet client needs."
 
-[profile]
+[summary.profile]
 Summary = "Over 5 years of practical experience in Python and Deep Learning \nMore than 12 years of research experience in academia and industry"
 Programming = "Python, Rust"
 Technology = "Pytorch, Computer Vision, LLM, HuggingFace, OpenCV, Numpy, gRPC"
-# "Languages" = "English, Russian"
+"Languages" = "English, Russian"
 
 [[experience]]
 position = "AI Frameworks Engineer"
 location = "Haifa, Israel"
 company.name = "Intel"
 company.website = "intel.com"
-start_date = "Sep. 2020"
-end_date = "Present"
+start_date = "September 2020"
+end_date = "December 2024"
 details = [
-  "Developing Intel Geti platform enabling domain experts to solve Computer Vision and NLP tasks",
-  "Expanded OpenVINO library model coverage by integrating a number of state-of-the-art Deep Learning pipelines, spanning multiple domains, including Diffusion, Text and Audio Generation models",
+  "Developed Intel Geti platform enabling domain experts to solve Computer Vision and NLP tasks",
+  "Expanded OpenVINO library model coverage by integrating a number of state-of-the-art Deep Learning pipelines, spanning multiple domains, including Diffusion, Text and Audio Generation",
   "Researched novel aggregation methods for deep convolutional networks and developed OpenFL open-source framework for Federated Learning",
 ]
 tags = ["Federated Learning", "AI"]
@@ -34,8 +38,8 @@ position = "Data Scientist"
 location = "Nizhny Novgorod, Russia"
 company.name = "Intelligichain"
 company.website = "intelligichain.com"
-start_date = "Oct. 2019"
-end_date = "Sep. 2020"
+start_date = "October 2019"
+end_date = "September 2020"
 details = [
   "Designed and executed comprehensive Neural Network domain adaptation workflows, spanning data collection, model adaptation, and deployment, to drive robust and reliable model performance",
   "Designed and implemented components of cognitive DL-powered surveillance system",
@@ -48,8 +52,8 @@ position = "Research Assistant"
 location = "Novosibirsk, Russia"
 company.name = "Budker Institute of Nuclear Physics"
 company.website = "https://www.inp.nsk.su/budker-institute-of-nuclear-physics"
-start_date = "Sep. 2011"
-end_date = "Sep. 2019"
+start_date = "September 2015"
+end_date = "September 2019"
 details = [
   "Worked on infrastructure upgrades and maintenance of Novosibirsk Free Electron Laser",
   "Presented the results of research in oral and poster talks at numerous international conferences on physics",

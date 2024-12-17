@@ -1,5 +1,6 @@
 [document]
 use_emoji = false
+add_location_footnote = true
 
 [page]
 # paper_format = "a4"
@@ -11,10 +12,10 @@ name = "Arial"
 # name = "Linux Biolinum"
 
 [font.size] 
-name = "34pt"
-heading_large = "17pt"
+name = "25pt"
+heading_large = "20pt"
 heading = "14pt"
-description = "10.5pt"
+description = "11pt"
 tags = "8pt"
 education_description = "8pt"
-contacts = "8pt"
+contacts = "11pt"

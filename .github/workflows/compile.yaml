@@ -5,7 +5,7 @@ on:
     paths-ignore:
       - '**.pdf'
 jobs:
-  render-paper:
+  render-pdf:
     env:
       TARGET_FILE_NAME: davidyuk_cv.pdf
     runs-on: ubuntu-latest
