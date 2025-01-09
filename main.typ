@@ -21,6 +21,8 @@
   justify: false,
 )
 
+#show link: set text(accent_color)
+
 #let section_header(body, accent_color: accent_color) = {
   v(1em, weak: true)
   set text(
@@ -46,7 +48,7 @@
     link({"https://linkedin.com/in/" + data.contacts.linkedin})[linkedin.com/in/#data.contacts.linkedin],
     link({"https://t.me/" + data.contacts.telegram})[t.me/#data.contacts.telegram],
   )
-  #text(size: eval(settings.font.size.contacts))[#contacts_list.join(" ")]
+  #text(accent_color, size: eval(settings.font.size.contacts))[#contacts_list.join(" ")]
   #linebreak(justify: true)
 
 ]
@@ -57,7 +59,10 @@
     #data.summary.target_position
   ]
   #data.summary.about\
-  My publication list is available on #link(data.contacts.google_schoolar)[Google Scholar].
+  My publication list is available on #link(data.contacts.google_schoolar)[Google Scholar].\
+  #v(0.9em, weak: true)
+  #text(accent_color)[*Programming Languages*]: #data.summary.profile.Programming.join(", ")\
+  #text(accent_color)[*Technology*]: #data.summary.profile.Technology.join(", ")\
 ]
 
 #let experience_section = [

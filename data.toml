@@ -6,6 +6,7 @@ phone = "+972-53-572-5322"
 github = "igor-davidyuk"
 linkedin = "idavidyuk"
 telegram = "fings"
+website = "https://igor-davidyuk.github.io"
 google_schoolar = "https://scholar.google.com/citations?hl=en&user=G8mwEMUAAAAJ"
 
 
@@ -15,8 +16,10 @@ about = "I am a Deep Learning Specialist with rich R&D experience in both indust
 
 [summary.profile]
 Summary = "Over 5 years of practical experience in Python and Deep Learning \nMore than 12 years of research experience in academia and industry"
-Programming = "Python, Rust"
-Technology = "Pytorch, Computer Vision, LLM, HuggingFace, OpenCV, Numpy, gRPC"
+Programming = ["Python", "Rust"]
+Technology = [
+  "Pytorch", "LLM", "HuggingFace", "LangGraph",
+  "Computer Vision", "OpenCV", "Numpy", "gRPC"]
 "Languages" = "English, Russian"
 
 [[experience]]
