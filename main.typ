@@ -46,7 +46,7 @@
     data.contacts.email,
     link({"https://github.com/" + data.contacts.github})[github.com/#data.contacts.github],
     link({"https://linkedin.com/in/" + data.contacts.linkedin})[linkedin.com/in/#data.contacts.linkedin],
-    link({"https://t.me/" + data.contacts.telegram})[t.me/#data.contacts.telegram],
+    link({"https://t.me/" + data.contacts.telegram})[#data.contacts.telegram\@telegram],
   )
   #text(accent_color, size: eval(settings.font.size.contacts))[#contacts_list.join(" ")]
   #linebreak(justify: true)
