@@ -11,7 +11,7 @@ google_schoolar = "https://scholar.google.com/citations?hl=en&user=G8mwEMUAAAAJ"
 
 
 [summary]
-target_position = "Data Scientist"
+target_position = "Deep Learning Engineer"
 about = "I am a Deep Learning Specialist with rich R&D experience in both industry and academia. Throughout my career, I have developed both specialized models and infrastructure, and I am always thrilled to adapt the latest community advances to real business applications. I truly enjoy working with the talented and passionate people often encountered in our field to meet client needs."
 
 [summary.profile]
@@ -23,7 +23,7 @@ Technology = [
 "Languages" = "English, Russian"
 
 [[experience]]
-position = "AI Frameworks Engineer"
+position = "Deep Learning Engineer"
 location = "Haifa, Israel"
 company.name = "Intel"
 company.website = "intel.com"
