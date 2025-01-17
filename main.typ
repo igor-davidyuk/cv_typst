@@ -82,7 +82,7 @@
   #section_header(accent_color: navy)[Education]
   #for entry in data.education [
     *#entry.degree* in #entry.major #h(1fr) #entry.start_date - #entry.end_date\
-    #link(entry.university.website)[#entry.university.name]\
+    #entry.university.name\
     #v(0.4em)
   ]
 ]
