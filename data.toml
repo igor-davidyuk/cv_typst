@@ -11,7 +11,7 @@ google_schoolar = "https://scholar.google.com/citations?hl=en&user=G8mwEMUAAAAJ"
 
 
 [summary]
-target_position = "Deep Learning Engineer"
+target_position = "AI Engineer"
 about = "I am a Deep Learning Specialist with rich R&D experience in both industry and academia. Throughout my career, I have developed both specialized models and infrastructure, and I am always thrilled to adapt the latest community advances to real business applications. I truly enjoy working with the talented and passionate people often encountered in our field to meet client needs."
 
 [summary.profile]
@@ -21,7 +21,7 @@ Technology = [
   "Pytorch", "LLM", "HuggingFace", "LangGraph",
   "Computer Vision", "OpenCV", "Numpy", "gRPC"
 ]
-"Languages" = "English (B1), Russian (Native)"
+"Languages" = "English (B2), Russian (Native)"
 
 [[experience]]
 position = "Deep Learning Engineer"
