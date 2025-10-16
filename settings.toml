@@ -1,6 +1,6 @@
 [document]
 use_emoji = false
-add_location_footnote = true
+add_location_footnote = false
 
 [page]
 # paper_format = "a4"

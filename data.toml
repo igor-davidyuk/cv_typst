@@ -1,70 +1,91 @@
 [contacts]
 name = "Igor Davidyuk"
 email = "igor.davidyuk@outlook.com"
-location = "Nizhny Novgorod, Russia"
+location = "Tbilisi, Georgia"
 phone = "+972-53-572-5322"
 github = "igor-davidyuk"
 linkedin = "idavidyuk"
 telegram = "fings"
 website = "https://igor-davidyuk.github.io"
-google_schoolar = "https://scholar.google.com/citations?hl=en&user=G8mwEMUAAAAJ"
+google_scholar = "https://scholar.google.com/citations?hl=en&user=G8mwEMUAAAAJ"
 
 
 [summary]
-target_position = "AI Engineer"
-about = "I am a Deep Learning Specialist with rich R&D experience in both industry and academia. Throughout my career, I have developed both specialized models and infrastructure, and I am always thrilled to adapt the latest community advances to real business applications. I truly enjoy working with the talented and passionate people often encountered in our field to meet client needs."
+target_position = "Applied AI Engineer"
+about = "AI Engineer with 5+ years building ML systems and AI-powered automation platforms. Currently developing workflow orchestration infrastructure with LLM integration. Experience adapting research advances to practical applications with focus on Python backend development, AI agent systems, and modern GenAI technologies."
 
 [summary.profile]
-Summary = "Over 5 years of practical experience in Python and Deep Learning \nMore than 10 years of research experience in academia and industry"
-Programming = ["Python", "Rust"]
-Technology = [
-  "Pytorch", "LLM", "HuggingFace", "LangGraph",
-  "Computer Vision", "OpenCV", "Numpy", "gRPC"
-]
+"AI/ML" = ["PyTorch", "LLMs (OpenAI, Anthropic)", "HuggingFace", "MCP", "Computer Vision"]
+"Backend & APIs" = ["Python", "FastAPI", "RESTful APIs"]
+"Infrastructure" = ["Docker", "GitHub Actions"]
 "Languages" = "English (B2), Russian (Native)"
 
 [[experience]]
-position = "Deep Learning Engineer"
+position = "AI Engineer"
+location = "Remote"
+company.name = "Aetheron"
+company.website = "aetheron.com"
+start_date = "May 2025"
+end_date = "Present"
+details = [
+  "Built workflow automation platform with visual composer, supporting AI agent orchestration via MCP protocol and multi-step LLM-powered workflows",
+  "Developed credentials broker service managing OAuth tokens and API keys with encryption for secure user credentials management",
+  "Implemented FastAPI workflow execution engine with real-time monitoring, error handling, and parallel node execution",
+  "Created AI agent tooling enabling LLMs to execute business automation workflows across multiple systems",
+]
+tags = ["LLM", "AI Agents", "Automation"]
+
+[[experience]]
+position = "AI Engineer"
 location = "Haifa, Israel"
 company.name = "Intel"
 company.website = "intel.com"
 start_date = "September 2020"
 end_date = "December 2024"
 details = [
-  "Developed Intel Geti platform enabling domain experts to solve Computer Vision and NLP tasks",
-  "Expanded OpenVINO library model coverage by integrating a number of state-of-the-art Deep Learning pipelines, spanning multiple domains, including Diffusion, Text and Audio Generation",
-  "Researched novel aggregation methods for deep convolutional networks and developed OpenFL open-source framework for Federated Learning",
+  "Developed the Intel Geti platform - production computer vision system enabling domain experts to train and deploy custom CV models without ML expertise",
+  "Expanded the OpenVINO library's model coverage by integrating 15+ state-of-the-art architectures including Stable Diffusion, LLMs, and audio generation models",
 ]
-tags = ["Federated Learning", "AI"]
+tags = ["Computer Vision", "Model Deployment"]
 
 [[experience]]
-position = "Data Scientist"
+position = "ML Engineer"
 location = "Nizhny Novgorod, Russia"
 company.name = "Intelligichain"
 company.website = "intelligichain.com"
 start_date = "October 2019"
 end_date = "September 2020"
 details = [
-  "Designed and executed comprehensive Neural Network domain adaptation workflows, spanning data collection, model adaptation, and deployment, to drive robust and reliable model performance",
-  "Designed and implemented components of cognitive DL-powered surveillance system",
-  "Developed smart camera-embedded AI applications",
+  "Built neural network deployment pipelines from data collection through production deployment for video analytics systems",
+  "Developed edge AI applications for smart camera devices with real-time inference optimization",
 ]
-tags = ["Deep Learning", "Developement"]
+tags = ["Deep Learning", "Edge AI"]
 
 [[experience]]
 position = "Research Assistant"
 location = "Novosibirsk, Russia"
 company.name = "Budker Institute of Nuclear Physics"
 company.website = "https://www.inp.nsk.su/budker-institute-of-nuclear-physics"
-start_date = "September 2015"
-end_date = "September 2019"
+start_date = "September 2013"
+end_date = "October 2019"
 details = [
-  "Worked on infrastructure upgrades and maintenance of Novosibirsk Free Electron Laser",
-  "Presented the results of research in oral and poster talks at numerous international conferences on physics",
-  "Authored several research papers published in peer-reviewed journals",
+  "Conducted R&D on Free Electron Laser infrastructure, published research in peer-reviewed physics journals",
 ]
 tags = ["Physics", "Research"]
 
+
+# [[education]]
+# degree = "PhD (graduated without defense)"
+# university.name = "Novosibirsk State University"
+# university.website = "http://www.nsu.ru"
+# location = "Novosibirsk, Russia"
+# major = "Accelerator Physics"
+# start_date = "2015"
+# end_date = "2019"
+# # start_date = "Sep. 2013"
+# # end_date = "Jun. 2015"
+# gpa = "4.74"
+# dissertation = "Development Of The Variable-Period Undulator For The Second Stage of Novosibirsk Free Electron Laser"
 
 [[education]]
 degree = "Master of Science"

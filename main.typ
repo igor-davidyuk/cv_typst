@@ -46,7 +46,7 @@
     link({"mailto:" + data.contacts.email})[#data.contacts.email], 
     link({"https://github.com/" + data.contacts.github})[github.com/#data.contacts.github],
     link({"https://linkedin.com/in/" + data.contacts.linkedin})[linkedin.com/in/#data.contacts.linkedin],
-    link({"https://t.me/" + data.contacts.telegram})[#data.contacts.telegram\@telegram],
+    // link({"https://t.me/" + data.contacts.telegram})[#(data.contacts.telegram + "@telegram")],
   )
   #show link: set text(black)
   #text(black, size: eval(settings.font.size.contacts))[#contacts_list.join(" ")]
@@ -60,10 +60,11 @@
     #data.summary.target_position
   ]
   #data.summary.about\
-  My publication list is available on #link(data.contacts.google_schoolar)[Google Scholar].\
+  My publication list is available on #link(data.contacts.google_scholar)[Google Scholar].\
   #v(0.9em, weak: true)
-  #text(accent_color)[*Programming Languages*]: #data.summary.profile.Programming.join(", ")\
-  #text(accent_color)[*Technology*]: #data.summary.profile.Technology.join(", ")\
+  #text(accent_color)[*AI/ML*]: #data.summary.profile.at("AI/ML").join(", ")\
+  #text(accent_color)[*Backend & APIs*]: #data.summary.profile.at("Backend & APIs").join(", ")\
+  #text(accent_color)[*Infrastructure*]: #data.summary.profile.at("Infrastructure").join(", ")\
 ]
 
 #let experience_section = [
